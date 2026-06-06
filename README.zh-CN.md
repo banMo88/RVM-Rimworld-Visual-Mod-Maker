@@ -2,6 +2,8 @@
 
 [English README](README.en.md) | 中文说明
 
+（本人只是个学生，第一次写这种项目，如果您觉得自述文件太长或不清楚，请将其交给AI，让他们逐步解释如何运行。）
+
 RVM（RimWorld Visual Mod Maker）是一个面向非编程用户的 RimWorld Mod 可视化制作工具。它的目标是让用户尽量不写代码、不手写 XML，而是通过界面填写名称、数值、上传贴图并导出可用的 RimWorld Mod。
 
 > **风险提示**  
