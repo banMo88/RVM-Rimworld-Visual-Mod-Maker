@@ -72,6 +72,9 @@ function modMakerLoggerPlugin() {
   };
 }
 
+const isCI_GitHub = typeof process.env.GITHUB_REPOSITORY === "string";
+
 export default defineConfig({
-  plugins: [modMakerLoggerPlugin()]
+  plugins: [modMakerLoggerPlugin()],
+  base: isCI_GitHub ? `/${process.env.GITHUB_REPOSITORY!.split("/")[1]}/` : "/",
 });
