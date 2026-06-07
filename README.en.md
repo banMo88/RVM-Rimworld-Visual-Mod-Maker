@@ -708,3 +708,6 @@ Do not enable all features the first time. If the game reports an error, this ma
 6. Culture and ideology editing is not currently supported.
 7. Importing existing mods not created by this maker is not currently supported.
 8. Starting pawns still inherit hair, tattoos, names, beards, and other details from ordinary humans, and these cannot currently be modified.
+
+## Claim
+This project is just a tool; users are solely responsible for the final mods or any content they create.
